@@ -38,10 +38,6 @@ components.html(
     height=69,
 )
 st.sidebar.write('Sometimes, mental stress is also the reason behind tumors. Check your stress level to understand brain health')
-st.sidebar.markdown(
-    f'<a href="https://stress-level-detector.streamlit.app/" target="_blank" style="display: inline-block; padding: 12px 20px; background-color: yellow; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Stress Level Detection</a>',
-    unsafe_allow_html=True
-)
 
 def page_layout():
     st.write("BrainBuddy is an app that combines various ML models into one in order to determine if you have a disease, using CNN and MRIs of the patients. The app uses advanced algorithms to diagnose various diseases related to brain")
